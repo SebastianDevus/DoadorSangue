@@ -1,19 +1,19 @@
 ﻿int idadeUsuario;
 
-//Espacamento
+// Espacamento
 Console.WriteLine();
 
-//Solicita e armazena a idade do usuário
+// Solicita e armazena a idade do usuário
 Console.Write("Insira sua idade, em anos: ");
 idadeUsuario = Convert.ToInt32(Console.ReadLine());
 
-//Espacamento
+// Espacamento
 Console.WriteLine();
 
-//Testando para idade
+// Testando para idade
 if (idadeUsuario < 18)
 {
-    //Mensagem de erro, em vermelho, com som
+    // Mensagem de erro, em vermelho, com som
     Console.ForegroundColor = ConsoleColor.Red;
     Console.Beep();
 
@@ -21,7 +21,7 @@ if (idadeUsuario < 18)
 }
 else if (idadeUsuario > 67)
 {
-    //Mensagem de erro, em vermelho, com som
+    // Mensagem de erro, em vermelho, com som
     Console.ForegroundColor = ConsoleColor.Red;
     Console.Beep();
 
@@ -29,7 +29,7 @@ else if (idadeUsuario > 67)
 }
 else
 {
-    //Mensagem de sucesso em verde
+    // Mensagem de sucesso em verde
     Console.ForegroundColor = ConsoleColor.Green;
 
     Console.WriteLine("Você pode doar sangue.");
